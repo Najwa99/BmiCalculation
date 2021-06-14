@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2D4A"
+    tools:context=".aboutus">
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="CS240"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/hlayout"
+        android:layout_width="380dp"
+        android:layout_height="324dp"
+        android:layout_above="@+id/text_gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-357dp"
+        android:background="@drawable/heightbg">
+
+        <ImageView
+            android:id="@+id/najwa"
+            android:layout_width="wrap_content"
+            android:layout_height="213dp"
+            android:layout_marginRight="29dp"
+            android:src="@drawable/gambar" />
+
+        <TextView
+            android:id="@+id/X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/najwa"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-237dp"
+            android:text="NURUL NAJWA BINTI ZAINOL"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/najwa"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-266dp"
+            android:text="2018654158"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/najwa"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-293dp"
+            android:text="RCS2405B"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wlayout"
+        android:layout_width="380dp"
+        android:layout_height="324dp"
+        android:layout_above="@+id/hlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-671dp"
+        android:background="@drawable/heightbg">
+
+        <ImageView
+            android:id="@+id/Cuha"
+            android:layout_width="279dp"
+            android:layout_height="229dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cuha" />
+
+        <TextView
+            android:id="@+id/y"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Cuha"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-260dp"
+            android:text="NURFATIN NASUHA BINTI SULAIMAN"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Cuha"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-288dp"
+            android:text="2019312133"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Cuha"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-318dp"
+            android:text="RCS2405C"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

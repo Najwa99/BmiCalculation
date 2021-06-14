@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/history"
+   android:icon="@drawable/ic_baseline_dehaze_24"
+    android:title="Image"
+    app:showAsAction="never"></item>
+    <item android:id="@+id/aboutus"
+        android:icon="@drawable/ic_baseline_dehaze_24"
+        android:title="About Us"
+        app:showAsAction="never"></item>
+
+</menu>
